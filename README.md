@@ -2,6 +2,10 @@
 
 pure black theme for pengu loader
 
+# PLUG-IN
+
+the theme already have auto-accept and dodge-button integrated by default
+
 # REQUIRED
 
 Pengu loader v1.0.4.1470
