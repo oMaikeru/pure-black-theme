@@ -1,4 +1,4 @@
-/*BACKGROUND*/
+/*ONLY-BACKGROUND*/
  .background,
  .clash-missed-lockin-modal,
  .clash-root-background-landing,
@@ -35,25 +35,32 @@
  .stats-backdrop,
  .tournament-scouting,
  .tft-hub-footer-bg,
- .yourshop-root
- {
-  background: black !important;
-  background-color: black!important;
-  background-image: none !important;
- }
- .ranked-intro-background {
-  display: none !important;
- }
- lol-social-roster-group .group-header {
+ .yourshop-root,
+ .tft-player-card,
+ .player-party-controls,
+ .runes-recommender-root,
+ .lol-perks-construct-minspec-component,
+ .rcp-fe-lol-game-in-progress,
+ .lol-loading-screen-container,
+ .lol-loading-screen-default-state,
+ .match-history-main,
+ #rcp-fe-viewport-root #rcp-fe-lol-navigation-app, 
+ lol-social-roster-group .group-header{
   background: black !important;
 }
 
-/*HUD*/
+/*OTHER-STUFF*/
  .navbar-blur{
   background: black !important;
   backdrop-filter: none !important;
  }
+ .ranked-intro-background {
+  display: none !important;
+ }
  .lobby-header-overlay{
+  background: transparent !important;
+ }
+ .right-nav-vertical-rule{
   background: transparent !important;
  }
  .parties-view .parties-background {
@@ -61,17 +68,6 @@
  }
  .rcp-fe-lol-navigation.main-nav-bar {
   height: 76px !important;
-}
-
-/*GAME-IN-PROGRESS*/
- .rcp-fe-lol-game-in-progress {
-	background-image: unset !important;
-	background: black !important;
-}
-
-/*LOADING-SCREEN*/
- .lol-loading-screen-container.lol-loading-screen-default-state {
-  background: black !important;
  }
  .lol-loading-screen-container.lol-loading-screen-default-state .lol-loading-screen-spinner {
 	display: none !important;
@@ -79,25 +75,24 @@
  .loading-tab::after {
 	background-image:none !important;
  }
+ .parallax-layer-container .parallax-background-layer{
+  background-image: none !important;
+ }
  .uikit-background-switcher .lol-uikit-background-switcher-image.transition.fade {
 	animation: unset !important;
-}
-
-/*DODGE-BUTTON*/
+ }
  .champion-select .quit-button {
   width: 115px;
 }
 
 /*EVENT-SHOP*/
- .rcp-fe-lol-event-shop-application,
- .event-shop-offer-card,
- .event-shop-token-shop,
- .event-shop-page-header,
- .event-shop-token-shop-header,
- .event-shop-category-nav-bar,
- .event-shop-reward-track-wrapper,
+ .rcp-fe-lol-event-shop-application
  .event-shop-progression-info
- {
-  background-image: none !important;
+ .event-shop-offer-card
+ .event-shop-token-shop
+ .event-shop-page-header
+ .event-shop-token-shop-header
+ .event-shop-category-nav-bar
+ .event-shop-reward-track-wrapper{
   background: black !important;
 }
